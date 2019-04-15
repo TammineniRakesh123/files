@@ -1,0 +1,6 @@
+C:\Users\ee210679\documents\visual studio 2013\Projects\WebServicesDemo\HelloWebApplication\bin\HelloWebApplication.dll.config
+C:\Users\ee210679\documents\visual studio 2013\Projects\WebServicesDemo\HelloWebApplication\bin\HelloWebApplication.dll
+C:\Users\ee210679\documents\visual studio 2013\Projects\WebServicesDemo\HelloWebApplication\bin\HelloWebApplication.pdb
+C:\Users\ee210679\documents\visual studio 2013\Projects\WebServicesDemo\HelloWebApplication\obj\Debug\HelloWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\ee210679\documents\visual studio 2013\Projects\WebServicesDemo\HelloWebApplication\obj\Debug\HelloWebApplication.dll
+C:\Users\ee210679\documents\visual studio 2013\Projects\WebServicesDemo\HelloWebApplication\obj\Debug\HelloWebApplication.pdb

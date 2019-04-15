@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Example 02</title>
+
+<script type="text/javascript">
+file = fopen(getScriptPath("file:///C:/Users/EE210679/Downloads/filename.txt"), 0);.
+file_length = flength(file);
+content = fread(file, file_length);
+document.getElementById("myDiv").innerText = content;  
+</script>
+
+</head>
+<body>
+
+<div id="myDiv"></div>
+
+</body>
+
+</html>

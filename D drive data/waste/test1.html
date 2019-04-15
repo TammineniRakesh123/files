@@ -1,0 +1,108 @@
+
+                                                                                            <!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Map Types</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 75%;
+
+      }
+      #coords {
+        background-color: black;
+        color: white;
+        padding: 5px;
+      }
+      a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="coords"></div>
+    <script>
+    var a=[[1],[2],[3],[4]];
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 0, lng: 12},
+          zoom: 5,
+          streetViewControl: false,
+          gestureHandling: 'none',
+          zoomControl: false,
+
+          mapTypeControlOptions: {
+            mapTypeIds: ['moon']
+
+          }
+
+        });
+
+        var moonMapType = new google.maps.ImageMapType({
+          getTileUrl: function(coord, zoom) {
+           
+              return 'file:///C:/Users/EE210679/Pictures/Empty.png';
+          },
+         // tileSize: new google.maps.Size(256, 256),
+          maxZoom: 30,
+          minZoom: 1,
+         // radius: 173,
+          name: 'Moon'
+        });
+
+        map.mapTypes.set('moon', moonMapType);
+        map.setMapTypeId('moon');
+       for(var i=0;i<a.length;i++)
+       {
+
+        var x=9-i*6;
+        var flightPlanCoordinates = [
+          {lat: x, lng: 1},
+          {lat: x, lng: 10}
+          /*{lat: -18.142, lng: 178.431},
+          {lat: -27.467, lng: 153.027}
+*/        ];
+
+
+        var flightPath = new google.maps.Polyline({
+          path: flightPlanCoordinates,
+          geodesic: true,
+          strokeColor: '#FF0000',
+          strokeOpacity: 1.0,
+          strokeWeight: 2
+        });
+
+        flightPath.setMap(map);
+      }
+         //Show the lat and lng under the mouse cursor.
+       var coordsDiv = document.getElementById('coords');
+        map.controls[google.maps.ControlPosition.TOP_CENTER].push(coordsDiv);
+        map.addListener('mousemove', function(event) {
+          coordsDiv.textContent =
+              'lat: ' + Math.round(event.latLng.lat()) + ', ' +
+              'lng: ' + Math.round(event.latLng.lng());
+        });
+      }
+
+
+    
+    </script>
+    <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZLse5OGZIM0UXeIBdHUv1csZmvaJZ3wQ&callback=initMap">
+    </script>
+  </body>
+</html>

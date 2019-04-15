@@ -1,0 +1,4 @@
+c:\users\ee210679\documents\visual studio 2013\Projects\IHelloRemotingService\IHelloRemotingService\bin\Debug\IHelloRemotingService.dll
+c:\users\ee210679\documents\visual studio 2013\Projects\IHelloRemotingService\IHelloRemotingService\bin\Debug\IHelloRemotingService.pdb
+c:\users\ee210679\documents\visual studio 2013\Projects\IHelloRemotingService\IHelloRemotingService\obj\Debug\IHelloRemotingService.dll
+c:\users\ee210679\documents\visual studio 2013\Projects\IHelloRemotingService\IHelloRemotingService\obj\Debug\IHelloRemotingService.pdb

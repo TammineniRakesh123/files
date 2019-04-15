@@ -1,0 +1,10 @@
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\bin\Debug\empdb.dll.config
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\bin\Debug\empdb.dll
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\bin\Debug\empdb.pdb
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\bin\Debug\EntityFramework.dll
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\bin\Debug\EntityFramework.xml
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\obj\Debug\empdb.csprojResolveAssemblyReference.cache
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\obj\Debug\empdb.dll
+c:\Users\ee210679\documents\visual studio 2013\Projects\p1\empdb\obj\Debug\empdb.pdb

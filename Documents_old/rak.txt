@@ -1,0 +1,5 @@
+b138e831eb774015b97da32e8536de87
+
+26fb2a.vidyo.io
+
+python generateToken.py --key=b138e831eb774015b97da32e8536de87 --appID=26fb2a.vidyo.io --userName=user1 --expiresInSecs=1600

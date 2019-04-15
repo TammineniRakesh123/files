@@ -1,0 +1,5 @@
+SecurityPrompt : Disabled
+RefreshPrompt : Enabled
+RegenerateConfig : Enabled
+ProjectBase:C:\Users\ee210679\AppData\Local\Temp\Test Client Projects\12.0
+http://localhost/services/application/cookbook/Vehicle/VehicleService.svc

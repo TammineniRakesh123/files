@@ -1,0 +1,18 @@
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\NeuralXOR.exe.config
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\NeuralXOR.exe
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\NeuralXOR.pdb
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\mscorlib.dll
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\normidna.nlp
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\normnfc.nlp
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\normnfd.nlp
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\normnfkc.nlp
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\normnfkd.nlp
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\obj\Debug\NeuralXOR.csprojResolveAssemblyReference.cache
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\obj\Debug\NeuralXOR.exe
+D:\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\obj\Debug\NeuralXOR.pdb
+D:\D drive data\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\NeuralXOR.exe.config
+D:\D drive data\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\obj\Debug\NeuralXOR.exe
+D:\D drive data\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\obj\Debug\NeuralXOR.pdb
+D:\D drive data\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\NeuralXOR.exe
+D:\D drive data\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\bin\Debug\NeuralXOR.pdb
+D:\D drive data\genetic_algorithm\Article_src (1)\NeuralXOR\NeuralXOR\obj\Debug\NeuralXOR.csprojResolveAssemblyReference.cache

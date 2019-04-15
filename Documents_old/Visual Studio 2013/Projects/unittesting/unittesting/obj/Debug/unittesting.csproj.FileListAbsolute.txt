@@ -1,0 +1,6 @@
+c:\users\ee210679\documents\visual studio 2013\Projects\unittesting\unittesting\bin\Debug\unittesting.exe.config
+c:\users\ee210679\documents\visual studio 2013\Projects\unittesting\unittesting\bin\Debug\unittesting.exe
+c:\users\ee210679\documents\visual studio 2013\Projects\unittesting\unittesting\bin\Debug\unittesting.pdb
+c:\users\ee210679\documents\visual studio 2013\Projects\unittesting\unittesting\obj\Debug\unittesting.csprojResolveAssemblyReference.cache
+c:\users\ee210679\documents\visual studio 2013\Projects\unittesting\unittesting\obj\Debug\unittesting.exe
+c:\users\ee210679\documents\visual studio 2013\Projects\unittesting\unittesting\obj\Debug\unittesting.pdb

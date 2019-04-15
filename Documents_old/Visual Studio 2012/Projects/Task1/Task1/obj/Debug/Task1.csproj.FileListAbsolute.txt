@@ -1,0 +1,6 @@
+c:\users\ee210679\documents\visual studio 2012\Projects\Task1\Task1\bin\Debug\Task1.exe.config
+c:\users\ee210679\documents\visual studio 2012\Projects\Task1\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+c:\users\ee210679\documents\visual studio 2012\Projects\Task1\Task1\bin\Debug\Task1.exe
+c:\users\ee210679\documents\visual studio 2012\Projects\Task1\Task1\bin\Debug\Task1.pdb
+c:\users\ee210679\documents\visual studio 2012\Projects\Task1\Task1\obj\Debug\Task1.exe
+c:\users\ee210679\documents\visual studio 2012\Projects\Task1\Task1\obj\Debug\Task1.pdb

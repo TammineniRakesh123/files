@@ -1,0 +1,6 @@
+c:\users\ee210679\documents\visual studio 2013\Projects\CompanyService\CompanyService\bin\Debug\CompanyService.dll.config
+c:\users\ee210679\documents\visual studio 2013\Projects\CompanyService\CompanyService\bin\Debug\CompanyService.dll
+c:\users\ee210679\documents\visual studio 2013\Projects\CompanyService\CompanyService\bin\Debug\CompanyService.pdb
+c:\users\ee210679\documents\visual studio 2013\Projects\CompanyService\CompanyService\obj\Debug\CompanyService.csprojResolveAssemblyReference.cache
+c:\users\ee210679\documents\visual studio 2013\Projects\CompanyService\CompanyService\obj\Debug\CompanyService.dll
+c:\users\ee210679\documents\visual studio 2013\Projects\CompanyService\CompanyService\obj\Debug\CompanyService.pdb

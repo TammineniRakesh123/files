@@ -1,0 +1,796 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Iken: Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
+    <link rel="icon" href="images/fav.png">
+    <!--[if IE]><link rel="shortcut icon" href="images/favicon.ico"><![endif]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="fonts/fonts.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+    <!--[if gte IE 9]
+<style type="text/css">
+.gradient {
+filter: none;
+}
+</style>
+<![endif]-->
+    <style type="text/css">
+        .dropdown-menu > li > p
+        {
+            color: #AAAAAA !important;
+            padding: 4px 20px !important;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/iken.js"></script>
+</head>
+<body>
+    
+    <form method="post" action="./" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTY2NDEwNzc3D2QWAmYPDxYEHglJdGVtQ291bnQFAjY5Hg9Ub3RhbEFkZGVkQ291bnQFATBkFgICAQ9kFgQCAQ8WAh4JaW5uZXJodG1sBY9qPGRpdiBjbGFzcz0nY29sLW1kLTMgY29sLXNtLTYnPjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzEnIGlkPSdjaGVja2JveEcxJyB2YWx1ZT0nOTEnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHMScgY2xhc3M9J2Nzcy1sYWJlbCc+PHN0cm9uZyBzdHlsZT0iY29sb3I6ICNiNzhiMjc7Ij5DYWbDqSBAIEZhYy1aPC9zdHJvbmc+PC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEcyJyBpZD0nY2hlY2tib3hHMicgdmFsdWU9JzEnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHMicgY2xhc3M9J2Nzcy1sYWJlbCc+QWRkcmVzcyBhbmQgRW1wbG95bWVudCBQcm9vZiBMZXR0ZXI8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzMnIGlkPSdjaGVja2JveEczJyB2YWx1ZT0nMicgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEczJyBjbGFzcz0nY3NzLWxhYmVsJz5BT1EvVE9RIEF3YXJkcyBOb21pbmF0aW9uPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc0JyBpZD0nY2hlY2tib3hHNCcgdmFsdWU9JzMnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHNCcgY2xhc3M9J2Nzcy1sYWJlbCc+QXVkaXQgUG9ydGFsPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc1JyBpZD0nY2hlY2tib3hHNScgdmFsdWU9JzkwJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzUnIGNsYXNzPSdjc3MtbGFiZWwnPkF4aXMgQmFuayAtIE5ldCBCYW5raW5nPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc2JyBpZD0nY2hlY2tib3hHNicgdmFsdWU9JzQ3JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzYnIGNsYXNzPSdjc3MtbGFiZWwnPkJvb2sgQ29uZmVyZW5jZSBSb29tPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc3JyBpZD0nY2hlY2tib3hHNycgdmFsdWU9JzQ4JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzcnIGNsYXNzPSdjc3MtbGFiZWwnPkJ1eSxTZWxsICYgSGlyZTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHOCcgaWQ9J2NoZWNrYm94RzgnIHZhbHVlPSc0JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzgnIGNsYXNzPSdjc3MtbGFiZWwnPkNpdGliYW5rLSBOZXQgQmFua2luZzwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHOScgaWQ9J2NoZWNrYm94RzknIHZhbHVlPSc1JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzknIGNsYXNzPSdjc3MtbGFiZWwnPkNvbnRyYWN0b3IgUmVzb3VyY2UgTWFuYWdlbWVudCBQb3J0YWw8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzEwJyBpZD0nY2hlY2tib3hHMTAnIHZhbHVlPSc2JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzEwJyBjbGFzcz0nY3NzLWxhYmVsJz5Db250cmFjdHMgYW5kIEFncmVlbWVudHMgUG9ydGFsPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEcxMScgaWQ9J2NoZWNrYm94RzExJyB2YWx1ZT0nNycgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEcxMScgY2xhc3M9J2Nzcy1sYWJlbCc+Q3VzdG9tZXIgYW5kIFZlbmRvciBTYXRpc2ZhY3Rpb24gUG9ydGFsIC0gS2VubGluUTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMTInIGlkPSdjaGVja2JveEcxMicgdmFsdWU9JzgnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHMTInIGNsYXNzPSdjc3MtbGFiZWwnPkRldXRzY2hlIEJhbmstIE5ldCBCYW5raW5nPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEcxMycgaWQ9J2NoZWNrYm94RzEzJyB2YWx1ZT0nOScgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEcxMycgY2xhc3M9J2Nzcy1sYWJlbCc+RGlzdHJpYnV0aW9uIE1hbmFnZW1lbnQgTGlzdDwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMTQnIGlkPSdjaGVja2JveEcxNCcgdmFsdWU9JzEwJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzE0JyBjbGFzcz0nY3NzLWxhYmVsJz5FQU0gQWNjZXNzL0NoYW5nZSBSZXF1ZXN0PC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEcxNScgaWQ9J2NoZWNrYm94RzE1JyB2YWx1ZT0nOTgnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHMTUnIGNsYXNzPSdjc3MtbGFiZWwnPkVmZm9ydCB0byBJbnZvaWNlICAoVXNlIEdvb2dsZSBDaHJvbWUpPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEcxNicgaWQ9J2NoZWNrYm94RzE2JyB2YWx1ZT0nOTcnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHMTYnIGNsYXNzPSdjc3MtbGFiZWwnPkVtcGxveWVlIE1vdmVtZW50IChVc2UgQ2hyb21lKTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMTcnIGlkPSdjaGVja2JveEcxNycgdmFsdWU9Jzk2JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzE3JyBjbGFzcz0nY3NzLWxhYmVsJz5FbXBsb3llZSBSZWltYnVyc2VtZW50IFNMQTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMTgnIGlkPSdjaGVja2JveEcxOCcgdmFsdWU9JzExJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzE4JyBjbGFzcz0nY3NzLWxhYmVsJz5FU09QPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEcxOScgaWQ9J2NoZWNrYm94RzE5JyB2YWx1ZT0nMTInIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHMTknIGNsYXNzPSdjc3MtbGFiZWwnPkV4Y2VwdGlvbiBSZXF1ZXN0IFBvcnRhbDwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMjAnIGlkPSdjaGVja2JveEcyMCcgdmFsdWU9JzEzJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzIwJyBjbGFzcz0nY3NzLWxhYmVsJz5FeGl0IENoZWNrbGlzdDwvbGFiZWw+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0nY29sLW1kLTMgY29sLXNtLTYnPjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzIxJyBpZD0nY2hlY2tib3hHMjEnIHZhbHVlPSc1NicgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEcyMScgY2xhc3M9J2Nzcy1sYWJlbCc+RmlubGFuZCBFZmZvcnQgTG9nPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEcyMicgaWQ9J2NoZWNrYm94RzIyJyB2YWx1ZT0nMTQnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHMjInIGNsYXNzPSdjc3MtbGFiZWwnPkZvcm0gMTYgLSBJbmRpYTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMjMnIGlkPSdjaGVja2JveEcyMycgdmFsdWU9Jzg0JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzIzJyBjbGFzcz0nY3NzLWxhYmVsJz5IREZDIEJhbmsgLSBOZXQgQmFua2luZzwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMjQnIGlkPSdjaGVja2JveEcyNCcgdmFsdWU9JzU3JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzI0JyBjbGFzcz0nY3NzLWxhYmVsJz5Ib2xpZGF5IGxpc3Q8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzI1JyBpZD0nY2hlY2tib3hHMjUnIHZhbHVlPScyMCcgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEcyNScgY2xhc3M9J2Nzcy1sYWJlbCc+SSBQb3dlciBNeSBDYXJlZXI8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzI2JyBpZD0nY2hlY2tib3hHMjYnIHZhbHVlPScxNycgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEcyNicgY2xhc3M9J2Nzcy1sYWJlbCc+SW5jaWRlbnQgUmVwb3J0aW5nPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEcyNycgaWQ9J2NoZWNrYm94RzI3JyB2YWx1ZT0nOTInIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHMjcnIGNsYXNzPSdjc3MtbGFiZWwnPkluc3RydWN0aW9ucyBmb3IgU0FQIE1vYmlsZSBBcHAgQ29uZmlndXJhdGlvbnM8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzI4JyBpZD0nY2hlY2tib3hHMjgnIHZhbHVlPSc4NycgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEcyOCcgY2xhc3M9J2Nzcy1sYWJlbCc+SW52ZXN0bWVudCBEZWNsYXJhdGlvbjwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMjknIGlkPSdjaGVja2JveEcyOScgdmFsdWU9JzIxJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzI5JyBjbGFzcz0nY3NzLWxhYmVsJz5JUklTRTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMzAnIGlkPSdjaGVja2JveEczMCcgdmFsdWU9JzIyJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzMwJyBjbGFzcz0nY3NzLWxhYmVsJz5JVCBTZXJ2aWNlIFJlcXVlc3Q8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzMxJyBpZD0nY2hlY2tib3hHMzEnIHZhbHVlPScxOScgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEczMScgY2xhc3M9J2Nzcy1sYWJlbCc+SVRTIFRvb2wgKExhYiBNYW5hZ2VtZW50KTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMzInIGlkPSdjaGVja2JveEczMicgdmFsdWU9Jzk0JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzMyJyBjbGFzcz0nY3NzLWxhYmVsJz5LZW5QdWxzZTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMzMnIGlkPSdjaGVja2JveEczMycgdmFsdWU9JzYxJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzMzJyBjbGFzcz0nY3NzLWxhYmVsJz5LZW5TaGFyZTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMzQnIGlkPSdjaGVja2JveEczNCcgdmFsdWU9JzIzJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzM0JyBjbGFzcz0nY3NzLWxhYmVsJz5MZWFybmluZ0BTYXNrZW48L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzM1JyBpZD0nY2hlY2tib3hHMzUnIHZhbHVlPSc3OScgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEczNScgY2xhc3M9J2Nzcy1sYWJlbCc+TGVhdmUgRW5jYXNobWVudDwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMzYnIGlkPSdjaGVja2JveEczNicgdmFsdWU9JzI0JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzM2JyBjbGFzcz0nY3NzLWxhYmVsJz5MaWJyYXJ5IFBvcnRhbDwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMzcnIGlkPSdjaGVja2JveEczNycgdmFsdWU9Jzk5JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzM3JyBjbGFzcz0nY3NzLWxhYmVsJz5MaXN0IG9mIHNoYXJlaG9sZGVycyB3aG9zZSBzaGFyZXMgYXJlIHRyYW5zZmVycmVkIC8gdG8gYmUgdHJhbnNmZXJyZWQgdG8gSUVQRjwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHMzgnIGlkPSdjaGVja2JveEczOCcgdmFsdWU9JzI1JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzM4JyBjbGFzcz0nY3NzLWxhYmVsJz5Mb2NhbCBDYXIgUmVudGFsIC0gSW5kaWE8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzM5JyBpZD0nY2hlY2tib3hHMzknIHZhbHVlPSc5MycgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEczOScgY2xhc3M9J2Nzcy1sYWJlbCc+Tm9taW5hdGlvbiBwb3J0YWwgKEVQRi9FUFMvR3JhdHVpdHkvR1RMKSAtIFVzZSBDaHJvbWU8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzQwJyBpZD0nY2hlY2tib3hHNDAnIHZhbHVlPScyNycgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc0MCcgY2xhc3M9J2Nzcy1sYWJlbCc+T3V0IG9mIE9mZmljZSBXb3JrIFNjaGVkdWxlIC0gT21lZ2EgLSBJbmRpYTwvbGFiZWw+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0nY29sLW1kLTMgY29sLXNtLTYnPjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzQxJyBpZD0nY2hlY2tib3hHNDEnIHZhbHVlPSc5NScgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc0MScgY2xhc3M9J2Nzcy1sYWJlbCc+T3V0bG9vayBBbnl3aGVyZSAoSW50ZXJuZXQpPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc0MicgaWQ9J2NoZWNrYm94RzQyJyB2YWx1ZT0nNjcnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHNDInIGNsYXNzPSdjc3MtbGFiZWwnPk91dGxvb2sgV2ViIEFjY2VzcyhJbnRyYW5ldCk8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzQzJyBpZD0nY2hlY2tib3hHNDMnIHZhbHVlPScyNicgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc0MycgY2xhc3M9J2Nzcy1sYWJlbCc+T3ZlcnNlYXMgSFI8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzQ0JyBpZD0nY2hlY2tib3hHNDQnIHZhbHVlPScyOCcgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc0NCcgY2xhc3M9J2Nzcy1sYWJlbCc+UGVyZm9ybWFuY2UgTWFuYWdlbWVudCBTeXN0ZW08L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzQ1JyBpZD0nY2hlY2tib3hHNDUnIHZhbHVlPSc3MicgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc0NScgY2xhc3M9J2Nzcy1sYWJlbCc+UEYgUGF5IFNsaXAgLSBTQ1RMIEluZGlhIChVbmRlciBtYWludGVuYW5jZSk8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzQ2JyBpZD0nY2hlY2tib3hHNDYnIHZhbHVlPScyOScgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc0NicgY2xhc3M9J2Nzcy1sYWJlbCc+UHJvY2VzcyBDaGFuZ2UgUmVxdWVzdDwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNDcnIGlkPSdjaGVja2JveEc0NycgdmFsdWU9JzMwJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzQ3JyBjbGFzcz0nY3NzLWxhYmVsJz5Qcm9tb3Rpb24gUG9ydGFsPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc0OCcgaWQ9J2NoZWNrYm94RzQ4JyB2YWx1ZT0nMzInIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHNDgnIGNsYXNzPSdjc3MtbGFiZWwnPlJlY3J1aXRtZW50IC0gbkdhZ2U8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzQ5JyBpZD0nY2hlY2tib3hHNDknIHZhbHVlPSc4MycgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc0OScgY2xhc3M9J2Nzcy1sYWJlbCc+UmVxdWVzdHMgZm9yIERpbm5lcjwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNTAnIGlkPSdjaGVja2JveEc1MCcgdmFsdWU9JzgxJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzUwJyBjbGFzcz0nY3NzLWxhYmVsJz5SZXNvdXJjZSBNYW5hZ2VtZW50IChCb29raW5nL0V4dGVuc2lvbik8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzUxJyBpZD0nY2hlY2tib3hHNTEnIHZhbHVlPSczMycgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc1MScgY2xhc3M9J2Nzcy1sYWJlbCc+UmVzdW1lIEdlbmVyYXRpb248L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzUyJyBpZD0nY2hlY2tib3hHNTInIHZhbHVlPSc4OScgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc1MicgY2xhc3M9J2Nzcy1sYWJlbCc+UmVzdW1lIFNlYXJjaCAoVXNlIENocm9tZSk8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzUzJyBpZD0nY2hlY2tib3hHNTMnIHZhbHVlPSc4NScgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc1MycgY2xhc3M9J2Nzcy1sYWJlbCc+UmV2ZW51ZSBGb3JlY2FzdDwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNTQnIGlkPSdjaGVja2JveEc1NCcgdmFsdWU9Jzg2JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzU0JyBjbGFzcz0nY3NzLWxhYmVsJz5TYWxhcnkgUmV2aXNpb24gTGV0dGVyPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc1NScgaWQ9J2NoZWNrYm94RzU1JyB2YWx1ZT0nMzUnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHNTUnIGNsYXNzPSdjc3MtbGFiZWwnPlNhbGVzIEZvcmNlIFRyYWluaW5nIFZpZGVvczwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNTYnIGlkPSdjaGVja2JveEc1NicgdmFsdWU9Jzc2JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzU2JyBjbGFzcz0nY3NzLWxhYmVsJz5TQVAgKFVzZSBHb29nbGUgQ2hyb21lKTwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNTcnIGlkPSdjaGVja2JveEc1NycgdmFsdWU9JzgwJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzU3JyBjbGFzcz0nY3NzLWxhYmVsJz5TYXNrZW4gQ2x1YnM8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzU4JyBpZD0nY2hlY2tib3hHNTgnIHZhbHVlPSczNCcgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc1OCcgY2xhc3M9J2Nzcy1sYWJlbCc+U2Fza2VuIE9mZmljZXM8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzU5JyBpZD0nY2hlY2tib3hHNTknIHZhbHVlPSczNycgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc1OScgY2xhc3M9J2Nzcy1sYWJlbCc+U0RQPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc2MCcgaWQ9J2NoZWNrYm94RzYwJyB2YWx1ZT0nMzknIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHNjAnIGNsYXNzPSdjc3MtbGFiZWwnPlNwb3RBd2FyZDwvbGFiZWw+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0nY29sLW1kLTMgY29sLXNtLTYnPjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzYxJyBpZD0nY2hlY2tib3hHNjEnIHZhbHVlPSc0MCcgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc2MScgY2xhc3M9J2Nzcy1sYWJlbCc+U3RhbmRhcmRpemVkIEpvYiBEZXNjcmlwdGlvbnM8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzYyJyBpZD0nY2hlY2tib3hHNjInIHZhbHVlPSc0MScgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc2MicgY2xhc3M9J2Nzcy1sYWJlbCc+U3VwcG9ydCBEZXNrIC0gS2VuR2VuaWU8L2xhYmVsPjwvZGl2PjxkaXYgY2xhc3M9J2NhdGVnb3J5Jz48aW5wdXQgdHlwZT0nY2hlY2tib3gnIG5hbWU9J2NoZWNrYm94RzYzJyBpZD0nY2hlY2tib3hHNjMnIHZhbHVlPSc0MicgY2xhc3M9J2Nzcy1jaGVja2JveCcgLz48bGFiZWwgZm9yPSdjaGVja2JveEc2MycgY2xhc3M9J2Nzcy1sYWJlbCc+U3dpdGNoIEJvb2tpbmcgVG9vbDwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNjQnIGlkPSdjaGVja2JveEc2NCcgdmFsdWU9JzQzJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzY0JyBjbGFzcz0nY3NzLWxhYmVsJz5UZWNobmljYWwgQ29tcGV0ZW5jeSBSZXBvc2l0b3J5PC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc2NScgaWQ9J2NoZWNrYm94RzY1JyB2YWx1ZT0nNzUnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHNjUnIGNsYXNzPSdjc3MtbGFiZWwnPlRpbWVzaGVldDwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNjYnIGlkPSdjaGVja2JveEc2NicgdmFsdWU9JzQ0JyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzY2JyBjbGFzcz0nY3NzLWxhYmVsJz5UcmF2ZWwgLSBWb3lhZ2V1cjwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNjcnIGlkPSdjaGVja2JveEc2NycgdmFsdWU9JzkzJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzY3JyBjbGFzcz0nY3NzLWxhYmVsJz5WZW5kb3IgUG9ydGFsPC9sYWJlbD48L2Rpdj48ZGl2IGNsYXNzPSdjYXRlZ29yeSc+PGlucHV0IHR5cGU9J2NoZWNrYm94JyBuYW1lPSdjaGVja2JveEc2OCcgaWQ9J2NoZWNrYm94RzY4JyB2YWx1ZT0nNDUnIGNsYXNzPSdjc3MtY2hlY2tib3gnIC8+PGxhYmVsIGZvcj0nY2hlY2tib3hHNjgnIGNsYXNzPSdjc3MtbGFiZWwnPlZpcnR1YWwgTWFyYmxlczwvbGFiZWw+PC9kaXY+PGRpdiBjbGFzcz0nY2F0ZWdvcnknPjxpbnB1dCB0eXBlPSdjaGVja2JveCcgbmFtZT0nY2hlY2tib3hHNjknIGlkPSdjaGVja2JveEc2OScgdmFsdWU9JzgyJyBjbGFzcz0nY3NzLWNoZWNrYm94JyAvPjxsYWJlbCBmb3I9J2NoZWNrYm94RzY5JyBjbGFzcz0nY3NzLWxhYmVsJz5Wb3ggUG9wdWxpPC9sYWJlbD48L2Rpdj48L2Rpdj5kAgMPZBYgAgEPZBYCZg8PFgIeBFRleHQFATNkZAIDDw8WAh8DBQE1ZGQCBQ8PFgQeCEltYWdlVXJsBRlCdXp6VGh1bWJuYWlsLmFzaHg/SUQ9MjI1Hg1BbHRlcm5hdGVUZXh0BVRTYXNrZW4gV2lucyBhIENvbnN1bHRpbmcgUHJvamVjdCBvbiBXaXJlbGVzcyBSb2J1c3RuZXNzIEZvciBDb2duZXggSGFuZGhlbGQgUHJvZHVjdHNkZAIHDxYCHwIFdjxkaXYgY2xhc3M9J2Nhcm91c2FsX2J0bicgb25jbGljaz0nSmF2YXNjcmlwdDpidXp6T3BlbigyMjUpOyc+VmlldyBNb3JlIDxpIGNsYXNzPSdmYSBmYS1hbmdsZS1kb3VibGUtcmlnaHQnPjwvaT48L2Rpdj5kAgkPDxYEHwQFGUJ1enpUaHVtYm5haWwuYXNoeD9JRD0yMjIfBQVkU2Fza2VuIEZpbGVzIGEgUGF0ZW50IGF0IEluZGlhbiBQYXRlbnQgT2ZmaWNlIEZvciBCbG9jayBDaGFpbiBCYXNlZCBBdXRoZW50aWNhdGlvbiBBbmQgU2VjdXJpdHkgU29sdWRkAgsPFgIfAgV2PGRpdiBjbGFzcz0nY2Fyb3VzYWxfYnRuJyBvbmNsaWNrPSdKYXZhc2NyaXB0OmJ1enpPcGVuKDIyMik7Jz5WaWV3IE1vcmUgPGkgY2xhc3M9J2ZhIGZhLWFuZ2xlLWRvdWJsZS1yaWdodCc+PC9pPjwvZGl2PmQCDQ8PFgQfBAUZQnV6elRodW1ibmFpbC5hc2h4P0lEPTIxMB8FBRhJbXBvcnRhbnQgTm90ZSAtIFBheXJvbGxkZAIPDxYCHwIFdjxkaXYgY2xhc3M9J2Nhcm91c2FsX2J0bicgb25jbGljaz0nSmF2YXNjcmlwdDpidXp6T3BlbigyMTApOyc+VmlldyBNb3JlIDxpIGNsYXNzPSdmYSBmYS1hbmdsZS1kb3VibGUtcmlnaHQnPjwvaT48L2Rpdj5kAhEPZBYCAgEPDxYEHwQFGUJ1enpUaHVtYm5haWwuYXNoeD9JRD0xNjMfBWVkZAITDxYCHwIFsAE8cCBjbGFzcz0nbmV3cy1kYXRhJz5GZWFyIG9mIEZhaWx1cmU8L3A+PHNwYW4gY2xhc3M9J3RoaW4nPi0gSGFyaSBIYXJhbjwvc3Bhbj4gPHNwYW4gY2xhc3M9J3JlYWRfbW9yZSc+PGEgaHJlZj0nbmV3cy5hc3B4P2lkPTM2Jz48aSBjbGFzcz0nZmEgZmEtY2hldnJvbi1yaWdodCc+PC9pPjwvYT48L3NwYW4+IGQCFQ8WAh8CBboBPHAgY2xhc3M9J25ld3MtZGF0YSc+VGhlIEFydCBvZiBDb2xsYWJvcmF0aW9uIDwvcD48c3BhbiBjbGFzcz0ndGhpbic+LSBIYXJpIEhhcmFuPC9zcGFuPiA8c3BhbiBjbGFzcz0ncmVhZF9tb3JlJz48YSBocmVmPSduZXdzLmFzcHg/aWQ9MzUnPjxpIGNsYXNzPSdmYSBmYS1jaGV2cm9uLXJpZ2h0Jz48L2k+PC9hPjwvc3Bhbj4gZAIXDw8WAh4LTmF2aWdhdGVVcmwFD25ld3MuYXNweD9pZD0zNmRkAhsPFgIeB1Zpc2libGVoZAIfDw8WAh8GBSFodHRwczovL3NhcC5zYXNrZW4uY29tL2lyai9wb3J0YWxkZAIjDw8WAh8DBQ9hcyBvZiBZZXN0ZXJkYXlkZAIpDzwrABEDAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIFZAEQFgAWABYADBQrAAAWAmYPZBYMAgEPZBYIZg9kFgICAQ8PFgIfAwUBMWRkAgEPZBYCAgEPDxYEHwMFHkluZm9ybWF0aW9uIFNlY3VyaXR5IChpbmZvU2VjKR8GBTBodHRwczovL21vb2RsZS5zYXNrZW4uY29tL2NvdXJzZS92aWV3LnBocD9pZD0yMzdkZAICD2QWAgIBDw8WAh8DZWRkAgMPZBYCAgEPDxYCHwNlZGQCAg9kFghmD2QWAgIBDw8WAh8DBQEyZGQCAQ9kFgICAQ8PFgQfAwUWU2Fza2VuIENvZGUgT2YgQ29uZHVjdB8GBTBodHRwczovL21vb2RsZS5zYXNrZW4uY29tL2NvdXJzZS92aWV3LnBocD9pZD0yODBkZAICD2QWAgIBDw8WAh8DZWRkAgMPZBYCAgEPDxYCHwNlZGQCAw9kFghmD2QWAgIBDw8WAh8DBQEzZGQCAQ9kFgICAQ8PFgQfAwUURGlzY2lwbGluZUBXb3JrcGxhY2UfBgUwaHR0cHM6Ly9tb29kbGUuc2Fza2VuLmNvbS9jb3Vyc2Uvdmlldy5waHA/aWQ9Mjg1ZGQCAg9kFgICAQ8PFgIfA2VkZAIDD2QWAgIBDw8WAh8DZWRkAgQPZBYIZg9kFgICAQ8PFgIfAwUBNGRkAgEPZBYCAgEPDxYEHwMFKEFkZHJlc3NpbmcgU2V4dWFsIEhhcmFzc21lbnQgQCBXb3JrcGxhY2UfBgUwaHR0cHM6Ly9tb29kbGUuc2Fza2VuLmNvbS9jb3Vyc2Uvdmlldy5waHA/aWQ9Mjg5ZGQCAg9kFgICAQ8PFgIfA2VkZAIDD2QWAgIBDw8WAh8DZWRkAgUPZBYIZg9kFgICAQ8PFgIfAwUBNWRkAgEPZBYCAgEPDxYEHwMFL0Vudmlyb25tZW50YWwgTWFuYWdlbWVudCBTeXN0ZW0gQXdhcmVuZXNzIChFTVMpHwYFMGh0dHBzOi8vbW9vZGxlLnNhc2tlbi5jb20vY291cnNlL3ZpZXcucGhwP2lkPTMxNmRkAgIPZBYCAgEPDxYCHwNlZGQCAw9kFgICAQ8PFgIfA2VkZAIGDw8WAh8HaGRkGAEFLmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkZ3JkX3BlbmRpbmdUcmFpbmluZ3MPPCsADAEIAgFkFYPRoz9cRDbINgtBVDN36J3z2zZMkqqvnWoU6RueDW4=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=Burau9M4b9sR3Z3FkXeaqwTumFi6EUIVtgOV04KqjhLgwQGl_NtuuY--A32m0JCRKXkHB2kaeGrzludHSRIvcJCqE3fIprJCJ1lBBuaCZqM1&amp;t=636681801604795562" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=eReybUAsqrI2TDDAv8a9vd8_LUdxhLX5ofJ6utP3Z8H0mS4Twxf6X4F6I1TV_mAA6tcFFYayxFUNWaGES3M8Tbd7yvE2D9-w9qQbFwh_IYpWk3TyToR07G9Bndy9408O7h-xvSyD6d3lU4YEJfCKxlvCLqRJKhidbaDoJH4g0g01&amp;t=545ba255" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SoGhsRvW_pyaYvHj13xp5jCX9RlH_YcS-tn1Uhkt94r-NXL5lcGrOrms5JVhuFg8WMzIhmTZwnDaWvv4DNNysScbTtX2pisb3VL_Lz5qUzVvNGoZSllAl_v14r0B2SLTBVFv3Wu0sGmtPd2Pbs2jCs135bYo8mHXagVZJ8_tvQUbbRnJjaTSlRWigz6M5enH0&amp;t=545ba255" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAOAnVu8KauFiTTB4DeNd62IqZYnyti8IhHB5wHK+VlJB31btQE4NxE7q7/NQKFiAdfeprs2FJyxYddrANKmRrtHqgiQ+sP16p5ibqPX53zyyA==" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <!----------------------------------------- popup for favourites ------------------------------------------------>
+    <div class="popup hidden-xs">
+        <div class="pop_backdrop">
+        </div>
+        <div class="pop_box">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">
+                    Select your <span class="thin">favourite Links</span></h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <div id="divLinkItems" class="checkboxes"><div class='col-md-3 col-sm-6'><div class='category'><input type='checkbox' name='checkboxG1' id='checkboxG1' value='91' class='css-checkbox' /><label for='checkboxG1' class='css-label'><strong style="color: #b78b27;">Café @ Fac-Z</strong></label></div><div class='category'><input type='checkbox' name='checkboxG2' id='checkboxG2' value='1' class='css-checkbox' /><label for='checkboxG2' class='css-label'>Address and Employment Proof Letter</label></div><div class='category'><input type='checkbox' name='checkboxG3' id='checkboxG3' value='2' class='css-checkbox' /><label for='checkboxG3' class='css-label'>AOQ/TOQ Awards Nomination</label></div><div class='category'><input type='checkbox' name='checkboxG4' id='checkboxG4' value='3' class='css-checkbox' /><label for='checkboxG4' class='css-label'>Audit Portal</label></div><div class='category'><input type='checkbox' name='checkboxG5' id='checkboxG5' value='90' class='css-checkbox' /><label for='checkboxG5' class='css-label'>Axis Bank - Net Banking</label></div><div class='category'><input type='checkbox' name='checkboxG6' id='checkboxG6' value='47' class='css-checkbox' /><label for='checkboxG6' class='css-label'>Book Conference Room</label></div><div class='category'><input type='checkbox' name='checkboxG7' id='checkboxG7' value='48' class='css-checkbox' /><label for='checkboxG7' class='css-label'>Buy,Sell & Hire</label></div><div class='category'><input type='checkbox' name='checkboxG8' id='checkboxG8' value='4' class='css-checkbox' /><label for='checkboxG8' class='css-label'>Citibank- Net Banking</label></div><div class='category'><input type='checkbox' name='checkboxG9' id='checkboxG9' value='5' class='css-checkbox' /><label for='checkboxG9' class='css-label'>Contractor Resource Management Portal</label></div><div class='category'><input type='checkbox' name='checkboxG10' id='checkboxG10' value='6' class='css-checkbox' /><label for='checkboxG10' class='css-label'>Contracts and Agreements Portal</label></div><div class='category'><input type='checkbox' name='checkboxG11' id='checkboxG11' value='7' class='css-checkbox' /><label for='checkboxG11' class='css-label'>Customer and Vendor Satisfaction Portal - KenlinQ</label></div><div class='category'><input type='checkbox' name='checkboxG12' id='checkboxG12' value='8' class='css-checkbox' /><label for='checkboxG12' class='css-label'>Deutsche Bank- Net Banking</label></div><div class='category'><input type='checkbox' name='checkboxG13' id='checkboxG13' value='9' class='css-checkbox' /><label for='checkboxG13' class='css-label'>Distribution Management List</label></div><div class='category'><input type='checkbox' name='checkboxG14' id='checkboxG14' value='10' class='css-checkbox' /><label for='checkboxG14' class='css-label'>EAM Access/Change Request</label></div><div class='category'><input type='checkbox' name='checkboxG15' id='checkboxG15' value='98' class='css-checkbox' /><label for='checkboxG15' class='css-label'>Effort to Invoice  (Use Google Chrome)</label></div><div class='category'><input type='checkbox' name='checkboxG16' id='checkboxG16' value='97' class='css-checkbox' /><label for='checkboxG16' class='css-label'>Employee Movement (Use Chrome)</label></div><div class='category'><input type='checkbox' name='checkboxG17' id='checkboxG17' value='96' class='css-checkbox' /><label for='checkboxG17' class='css-label'>Employee Reimbursement SLA</label></div><div class='category'><input type='checkbox' name='checkboxG18' id='checkboxG18' value='11' class='css-checkbox' /><label for='checkboxG18' class='css-label'>ESOP</label></div><div class='category'><input type='checkbox' name='checkboxG19' id='checkboxG19' value='12' class='css-checkbox' /><label for='checkboxG19' class='css-label'>Exception Request Portal</label></div><div class='category'><input type='checkbox' name='checkboxG20' id='checkboxG20' value='13' class='css-checkbox' /><label for='checkboxG20' class='css-label'>Exit Checklist</label></div></div><div class='col-md-3 col-sm-6'><div class='category'><input type='checkbox' name='checkboxG21' id='checkboxG21' value='56' class='css-checkbox' /><label for='checkboxG21' class='css-label'>Finland Effort Log</label></div><div class='category'><input type='checkbox' name='checkboxG22' id='checkboxG22' value='14' class='css-checkbox' /><label for='checkboxG22' class='css-label'>Form 16 - India</label></div><div class='category'><input type='checkbox' name='checkboxG23' id='checkboxG23' value='84' class='css-checkbox' /><label for='checkboxG23' class='css-label'>HDFC Bank - Net Banking</label></div><div class='category'><input type='checkbox' name='checkboxG24' id='checkboxG24' value='57' class='css-checkbox' /><label for='checkboxG24' class='css-label'>Holiday list</label></div><div class='category'><input type='checkbox' name='checkboxG25' id='checkboxG25' value='20' class='css-checkbox' /><label for='checkboxG25' class='css-label'>I Power My Career</label></div><div class='category'><input type='checkbox' name='checkboxG26' id='checkboxG26' value='17' class='css-checkbox' /><label for='checkboxG26' class='css-label'>Incident Reporting</label></div><div class='category'><input type='checkbox' name='checkboxG27' id='checkboxG27' value='92' class='css-checkbox' /><label for='checkboxG27' class='css-label'>Instructions for SAP Mobile App Configurations</label></div><div class='category'><input type='checkbox' name='checkboxG28' id='checkboxG28' value='87' class='css-checkbox' /><label for='checkboxG28' class='css-label'>Investment Declaration</label></div><div class='category'><input type='checkbox' name='checkboxG29' id='checkboxG29' value='21' class='css-checkbox' /><label for='checkboxG29' class='css-label'>IRISE</label></div><div class='category'><input type='checkbox' name='checkboxG30' id='checkboxG30' value='22' class='css-checkbox' /><label for='checkboxG30' class='css-label'>IT Service Request</label></div><div class='category'><input type='checkbox' name='checkboxG31' id='checkboxG31' value='19' class='css-checkbox' /><label for='checkboxG31' class='css-label'>ITS Tool (Lab Management)</label></div><div class='category'><input type='checkbox' name='checkboxG32' id='checkboxG32' value='94' class='css-checkbox' /><label for='checkboxG32' class='css-label'>KenPulse</label></div><div class='category'><input type='checkbox' name='checkboxG33' id='checkboxG33' value='61' class='css-checkbox' /><label for='checkboxG33' class='css-label'>KenShare</label></div><div class='category'><input type='checkbox' name='checkboxG34' id='checkboxG34' value='23' class='css-checkbox' /><label for='checkboxG34' class='css-label'>Learning@Sasken</label></div><div class='category'><input type='checkbox' name='checkboxG35' id='checkboxG35' value='79' class='css-checkbox' /><label for='checkboxG35' class='css-label'>Leave Encashment</label></div><div class='category'><input type='checkbox' name='checkboxG36' id='checkboxG36' value='24' class='css-checkbox' /><label for='checkboxG36' class='css-label'>Library Portal</label></div><div class='category'><input type='checkbox' name='checkboxG37' id='checkboxG37' value='99' class='css-checkbox' /><label for='checkboxG37' class='css-label'>List of shareholders whose shares are transferred / to be transferred to IEPF</label></div><div class='category'><input type='checkbox' name='checkboxG38' id='checkboxG38' value='25' class='css-checkbox' /><label for='checkboxG38' class='css-label'>Local Car Rental - India</label></div><div class='category'><input type='checkbox' name='checkboxG39' id='checkboxG39' value='93' class='css-checkbox' /><label for='checkboxG39' class='css-label'>Nomination portal (EPF/EPS/Gratuity/GTL) - Use Chrome</label></div><div class='category'><input type='checkbox' name='checkboxG40' id='checkboxG40' value='27' class='css-checkbox' /><label for='checkboxG40' class='css-label'>Out of Office Work Schedule - Omega - India</label></div></div><div class='col-md-3 col-sm-6'><div class='category'><input type='checkbox' name='checkboxG41' id='checkboxG41' value='95' class='css-checkbox' /><label for='checkboxG41' class='css-label'>Outlook Anywhere (Internet)</label></div><div class='category'><input type='checkbox' name='checkboxG42' id='checkboxG42' value='67' class='css-checkbox' /><label for='checkboxG42' class='css-label'>Outlook Web Access(Intranet)</label></div><div class='category'><input type='checkbox' name='checkboxG43' id='checkboxG43' value='26' class='css-checkbox' /><label for='checkboxG43' class='css-label'>Overseas HR</label></div><div class='category'><input type='checkbox' name='checkboxG44' id='checkboxG44' value='28' class='css-checkbox' /><label for='checkboxG44' class='css-label'>Performance Management System</label></div><div class='category'><input type='checkbox' name='checkboxG45' id='checkboxG45' value='72' class='css-checkbox' /><label for='checkboxG45' class='css-label'>PF Pay Slip - SCTL India (Under maintenance)</label></div><div class='category'><input type='checkbox' name='checkboxG46' id='checkboxG46' value='29' class='css-checkbox' /><label for='checkboxG46' class='css-label'>Process Change Request</label></div><div class='category'><input type='checkbox' name='checkboxG47' id='checkboxG47' value='30' class='css-checkbox' /><label for='checkboxG47' class='css-label'>Promotion Portal</label></div><div class='category'><input type='checkbox' name='checkboxG48' id='checkboxG48' value='32' class='css-checkbox' /><label for='checkboxG48' class='css-label'>Recruitment - nGage</label></div><div class='category'><input type='checkbox' name='checkboxG49' id='checkboxG49' value='83' class='css-checkbox' /><label for='checkboxG49' class='css-label'>Requests for Dinner</label></div><div class='category'><input type='checkbox' name='checkboxG50' id='checkboxG50' value='81' class='css-checkbox' /><label for='checkboxG50' class='css-label'>Resource Management (Booking/Extension)</label></div><div class='category'><input type='checkbox' name='checkboxG51' id='checkboxG51' value='33' class='css-checkbox' /><label for='checkboxG51' class='css-label'>Resume Generation</label></div><div class='category'><input type='checkbox' name='checkboxG52' id='checkboxG52' value='89' class='css-checkbox' /><label for='checkboxG52' class='css-label'>Resume Search (Use Chrome)</label></div><div class='category'><input type='checkbox' name='checkboxG53' id='checkboxG53' value='85' class='css-checkbox' /><label for='checkboxG53' class='css-label'>Revenue Forecast</label></div><div class='category'><input type='checkbox' name='checkboxG54' id='checkboxG54' value='86' class='css-checkbox' /><label for='checkboxG54' class='css-label'>Salary Revision Letter</label></div><div class='category'><input type='checkbox' name='checkboxG55' id='checkboxG55' value='35' class='css-checkbox' /><label for='checkboxG55' class='css-label'>Sales Force Training Videos</label></div><div class='category'><input type='checkbox' name='checkboxG56' id='checkboxG56' value='76' class='css-checkbox' /><label for='checkboxG56' class='css-label'>SAP (Use Google Chrome)</label></div><div class='category'><input type='checkbox' name='checkboxG57' id='checkboxG57' value='80' class='css-checkbox' /><label for='checkboxG57' class='css-label'>Sasken Clubs</label></div><div class='category'><input type='checkbox' name='checkboxG58' id='checkboxG58' value='34' class='css-checkbox' /><label for='checkboxG58' class='css-label'>Sasken Offices</label></div><div class='category'><input type='checkbox' name='checkboxG59' id='checkboxG59' value='37' class='css-checkbox' /><label for='checkboxG59' class='css-label'>SDP</label></div><div class='category'><input type='checkbox' name='checkboxG60' id='checkboxG60' value='39' class='css-checkbox' /><label for='checkboxG60' class='css-label'>SpotAward</label></div></div><div class='col-md-3 col-sm-6'><div class='category'><input type='checkbox' name='checkboxG61' id='checkboxG61' value='40' class='css-checkbox' /><label for='checkboxG61' class='css-label'>Standardized Job Descriptions</label></div><div class='category'><input type='checkbox' name='checkboxG62' id='checkboxG62' value='41' class='css-checkbox' /><label for='checkboxG62' class='css-label'>Support Desk - KenGenie</label></div><div class='category'><input type='checkbox' name='checkboxG63' id='checkboxG63' value='42' class='css-checkbox' /><label for='checkboxG63' class='css-label'>Switch Booking Tool</label></div><div class='category'><input type='checkbox' name='checkboxG64' id='checkboxG64' value='43' class='css-checkbox' /><label for='checkboxG64' class='css-label'>Technical Competency Repository</label></div><div class='category'><input type='checkbox' name='checkboxG65' id='checkboxG65' value='75' class='css-checkbox' /><label for='checkboxG65' class='css-label'>Timesheet</label></div><div class='category'><input type='checkbox' name='checkboxG66' id='checkboxG66' value='44' class='css-checkbox' /><label for='checkboxG66' class='css-label'>Travel - Voyageur</label></div><div class='category'><input type='checkbox' name='checkboxG67' id='checkboxG67' value='93' class='css-checkbox' /><label for='checkboxG67' class='css-label'>Vendor Portal</label></div><div class='category'><input type='checkbox' name='checkboxG68' id='checkboxG68' value='45' class='css-checkbox' /><label for='checkboxG68' class='css-label'>Virtual Marbles</label></div><div class='category'><input type='checkbox' name='checkboxG69' id='checkboxG69' value='82' class='css-checkbox' /><label for='checkboxG69' class='css-label'>Vox Populi</label></div></div></div>
+                </div>
+                <div class="col-sm-12 submit_btn">
+                    <input type="submit" name="ctl00$btnSubmit" value="Submit" id="btnSubmit" class="btn btn-primary submit" />                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------- popup for favourites ends ------------------------------------------------->
+    <div class="header">
+        <div class="container">
+            <div class="col-sm-2 col-xs-2">
+                <div class="logo">
+                    <a href="Default.aspx">
+                        <img src="images/logo.png" alt="iKen" /></a></div>
+            </div>
+            <div class="col-sm-8 col-xs-6 col-xs-push-2 col-sm-push-0">
+                <div id="search" class="hidden-xs">
+                </div>
+                <nav class="navbar navbar-default">
+        <div class="container-fluid"> 
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://www.sasken.com" target="_blank">sasken<span class="thin">.com</span></a></li>
+              <li class="hidden-xs">
+                <div class="sep_nav"></div>
+              </li>
+              <li><a href="OurUnit.aspx">Our<span class="thin">units</span></a></li>
+              <li class="hidden-xs">
+                <div class="sep_nav"></div>
+              </li>
+              <li><a href="myApps.aspx"  target="_blank">My<span class="thin">apps</span></a></li>
+              <li class="hidden-xs">
+                <div class="sep_nav"></div>
+              </li>
+              <li><a href="https://sapgwprd.sasken.com/sap/bc/ui2/flp#Shell-home" target="_blank">SAP<span class="thin">apps</span></a></li>
+              <li class="hidden-xs">
+                <div class="sep_nav"></div>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Quick<span class="thin">links</span><span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu" id="menuDropdown">
+                 <li><a href='#' class='add_fav hidden-xs'>Add <span class='thin'>favourite</span></a></li>
+                </ul>                 
+              </li>
+            </ul>
+          </div>
+         
+          <!-- /.navbar-collapse --> 
+        </div>
+        <!-- /.container-fluid --> 
+      </nav>
+            </div>
+            <div class="col-sm-2 hidden-xs">
+                <div class="mydetails shadow">
+                    <a href="myInfo.aspx">
+                        <div class="me">
+                            <img src="images/me.png" alt="iKen" />
+                            <div class="me_txt">
+                                My<span class="thin">details</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!------------------------- small screens --------------------->
+            <div class="hidden-sm hidden-md hidden-lg col-xs-4">
+                <div class="mydetails">
+                    <a href="myInfo.aspx">
+                        <div class="me">
+                            <img src="images/me.png" alt="iKen" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------- header ends ---------------------------------------------->
+    <div>
+        
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    
+    
+    
+	 <link href="css/footprint.css" rel="stylesheet" />
+    <script>
+        function msieversion() {
+            var ua = window.navigator.userAgent
+            var msie = ua.indexOf("MSIE ")
+
+            if (msie > 0)      // If Internet Explorer, return version number
+                return parseInt(ua.substring(msie + 5, ua.indexOf(".", msie)))
+            else                 // If another browser, return 0
+                return 0
+
+        }
+
+        //        function msieversion() {
+
+        //            var ua = window.navigator.userAgent;
+        //            var msie = ua.indexOf("MSIE ");
+        //            if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))      // If Internet Explorer, return version number
+        //            {
+        //                alert("Our IKen portal is best viewed on Firefox, Chrome and IE 9 & above. If you have a lower version please raise a call on Kengenie under IT Opearations to upgrade your browser.");
+        //            }
+        //            return false;
+        //        }
+
+        //        msieversion();
+
+        //alert(msieversion());       
+        /*            alert("This is Internet Explorer 4 or later");
+        else if (msieversion() >= 3)
+        alert("This is Internet Explorer 3");
+        else
+        alert("This is another browser");
+        */
+
+        if (msieversion() < 9 && msieversion() > 0) {
+            alert("Our IKen portal is best viewed on Firefox, Chrome and IE 9 & above. If you have a lower version please raise a call on Kengenie under IT Opearations to upgrade your browser.");
+        }
+
+    </script>
+    <script type="text/javascript">
+
+        //if (!sessionStorage.alreadyClicked) {
+        //    window.open("https://sasken.my.salesforce.com/", "_blank");
+        //    sessionStorage.alreadyClicked = "true";
+        //}
+
+        $(window).load(function () {
+            //window.open("https://sasken.my.salesforce.com/", "_blank");
+            $('[data-toggle="tooltip"]').tooltip();
+
+        });
+
+        function clickPopUpButton() {
+            jQuery('#btn_Popup').click();
+        }
+        function clickEffortPopUpButton() {
+            jQuery('#btn_PopupEffort').click();
+        }
+        function clickPopUpPendingTraining() {
+            jQuery('#btn_Trianing').click();
+        }
+
+        function onClickPendingApprovals() {
+
+            window.open("https://iken.sasken.com/IkenWorklist", "_blank");
+        }
+
+
+
+
+    </script>
+
+    <!------------------------- feedback ------------------------------------>
+    
+
+
+    <ul class="nav nav-tabs" style="z-index: 999; position: fixed; right: 0">
+        <li style="top: 60px; right: -40px;" class="cust_tabs">
+            <a id="ContentPlaceHolder1_effort_btn" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$effort_btn&#39;,&#39;&#39;)"><span id="ContentPlaceHolder1_lbl_effort_badge" class="cust_tabs" style="color: #efe016; font-weight: bold; margin: 10px; display: none;">3</span><span style="color: #efe016; font-weight: bold; margin: 10px;">Pending Efforts</span>
+            </a>
+        </li>
+    </ul>
+    <ul class="nav nav-tabs" style="z-index: 999; position: fixed; right: 0">
+        <li style="top: 205px; right: -49px;" class="cust_tabs" onclick="onClickPendingApprovals();">
+            <a data-toggle="tab">
+                <span style="color: #efe016; font-weight: bold; margin: 10px;">Pending Approvals</span>
+            </a>
+        </li>
+    </ul>
+    <ul class="nav nav-tabs" style="z-index: 999; position: fixed; right: 0">
+        <li style="top: 361px; right: -52px;" class="cust_tabs" onclick="clickPopUpPendingTraining();">
+            <a data-toggle="tab">
+                <span id="ContentPlaceHolder1_lbl_pending_training" style="color: #efe016; font-weight: bold; margin: 10px; display: none">5</span>
+                <span style="color: #efe016; font-weight: bold; margin: 10px;">Mandatory Tranings</span>
+            </a>
+        </li>
+    </ul>
+
+    <div class="content_area">
+        <div class="container">
+
+            <div class="col-md-5 col-sm-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img id="ContentPlaceHolder1_buzz1" src="BuzzThumbnail.ashx?ID=225" alt="Sasken Wins a Consulting Project on Wireless Robustness For Cognex Handheld Products" />
+                            <p id="ContentPlaceHolder1_buzz1Link"><div class='carousal_btn' onclick='Javascript:buzzOpen(225);'>View More <i class='fa fa-angle-double-right'></i></div></p>
+                        </div>
+                        <div class="item">
+                            <img id="ContentPlaceHolder1_buzz2" src="BuzzThumbnail.ashx?ID=222" alt="Sasken Files a Patent at Indian Patent Office For Block Chain Based Authentication And Security Solu" />
+                            <p id="ContentPlaceHolder1_buzz2Link"><div class='carousal_btn' onclick='Javascript:buzzOpen(222);'>View More <i class='fa fa-angle-double-right'></i></div></p>
+                        </div>
+                        <div class="item">
+                            <img id="ContentPlaceHolder1_buzz3" src="BuzzThumbnail.ashx?ID=210" alt="Important Note - Payroll" />
+                            <p id="ContentPlaceHolder1_buzz3Link"><div class='carousal_btn' onclick='Javascript:buzzOpen(210);'>View More <i class='fa fa-angle-double-right'></i></div></p>
+                        </div>
+                        <div id="ContentPlaceHolder1_Divbuzz4" class="item">
+                            <img id="ContentPlaceHolder1_buzz4" src="BuzzThumbnail.ashx?ID=163" />
+                            <p id="ContentPlaceHolder1_buzz4Link">
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+			<svg id="svg-sprite" style="position:absolute">
+                <symbol id="paw" viewBox="0 0 249 209.32">
+                    <g xmlns="http://www.w3.org/2000/svg" transform="translate(0.000000,80.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+<path d="M375 786 c-40 -18 -80 -62 -101 -111 -22 -54 -29 -184 -15 -271 l12 -71 119 1 c137 1 125 -8 156 116 28 112 2 250 -59 307 -39 37 -73 46 -112 29z"/>
+<path d="M430 239 c-30 -5 -73 -11 -96 -14 l-41 -6 4 -52 c6 -71 29 -132 58 -151 37 -25 108 -21 141 8 24 20 28 33 32 87 5 74 -8 133 -29 135 -8 1 -39 -2 -69 -7z"/>
+</g>
+                   
+                </symbol>
+            </svg>
+			<div class="ajax-loader">
+	<div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+	<div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+	<div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+	<div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+	<div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>
+	<div class="paw"><svg class="icon"><use xlink:href="#paw" /></svg></div>            
+        </div>
+           <div class="ajax-loader-button">
+                <a href="https://iken.sasken.com/prakriti/#carbon" target="_blank"><img src="Images/carbonC02.png" width="60" height="60" /></a>
+           </div>
+		   
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="sec_block">
+                    <h2>News <span class="thin">@ Sasken</span></h2>
+                    <!------------------------------------- news 1 ------------------------------------------>
+                    <div id="ContentPlaceHolder1_newsText1" class="news bot-border"><p class='news-data'>Fear of Failure</p><span class='thin'>- Hari Haran</span> <span class='read_more'><a href='news.aspx?id=36'><i class='fa fa-chevron-right'></i></a></span> </div>
+                    <!------------------------------------- news 2 ------------------------------------------>
+                    <div id="ContentPlaceHolder1_newsText2" class="news grey_color bot-border"><p class='news-data'>The Art of Collaboration </p><span class='thin'>- Hari Haran</span> <span class='read_more'><a href='news.aspx?id=35'><i class='fa fa-chevron-right'></i></a></span> </div>
+                    <!------------------------------------- more news ------------------------------------------>
+                    <div class="news">
+                        <span class="view_more">
+                            <a id="ContentPlaceHolder1_lnkMoreNews" href="news.aspx?id=36">For more news <i class="fa fa-sign-in"></i></a></span>
+                    </div>
+                </div>
+                <!-------------------------------- news ends ---------------------------------------->
+                <div class="sas_mng_sys">
+                    <a href="https://kenpoint.sasken.com/OE/SMS/default.aspx" target="_blank">
+                        <div class="mng_image">
+                            <img src="images/SMS.png" alt="Sasken Management System" />
+                        </div>
+                        <div class="mng_text">
+                            Sasken <span class="thin">Management</span> System
+                        </div>
+                    </a>
+                </div>
+                <!------------------------------------- SMS ------------------------------------------->
+                <div class="trading">
+                    <a href="#" id="ContentPlaceHolder1_pTradeWinOpen" class="flash">"Trading Window is Open"</a>
+                    
+                </div>
+                <div class="purchase">
+                    <a href="http://intraweb.sasken.com/new/index.php?id=2539" id="ContentPlaceHolder1_purchaseKnow" target="_blank">Purchasing Know How?</a>
+                </div>
+            </div>
+            <!---------------------------- links to access ------------------------------------>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="sec_block-1">
+                    <h2>Links to <span class="thin">access</span></h2>
+                    <div class="link_block">
+                        <!------------------------ links lhs ---------------------------->
+                        <div class="link-col right-border">
+                            
+                            <!-------------------------------- link 1 ---------------------------------------->
+                            <div class="link">
+                                <a href="http://intraweb.sasken.com/new/index.php?id=2775" target="_blank"><i class="fa fa-balance-scale link_icon"></i><span class="link_text">Ethics</span></a>
+                            </div>
+                            <!------------------------------------ link 2 ------------------------------------>
+                            <div class="link">
+                                <a href="https://iken.sasken.com/prakriti" target="_blank"><i class="fa fa-tree link_icon"></i><span class="link_text">Prakriti</span></a>
+                            </div>
+                            <!------------------------------------ link 3 ------------------------------------>
+                            <div class="link">
+                                <a href="https://kenpoint.sasken.com/discovery/Kenshare/Lists/GrantedPatents/home.aspx"
+                                    target="_blank"><i class="fa fa-shield link_icon"></i><span class="link_text">Sasken
+                                        Patents</span></a>
+                            </div>
+                            <!------------------------------------ link 4 ------------------------------------>
+                            <div class="link">
+                                <a id="ContentPlaceHolder1_lnkSAP" href="https://sap.sasken.com/irj/portal" target="_blank"><i class="fa fa-server link_icon">
+                                </i><span class="link_text"><p>SAP<i style="font-size: 12px;color: #bfa311;font-weight: bold;">(Use Chrome)</i></p></span></a>
+                            </div>
+                            <!------------------------------------ link 5 ------------------------------------>
+                            <div class="link">
+                                <a href="kenpal.aspx"><i class="fa fa-users link_icon"></i><span class="link_text">Kenpal</span></a>
+                            </div>
+                            <!------------------------------------ link 6 ------------------------------------>
+                            <div class="link">
+                                <a href="EmployeeDue.html" target="_blank"><i class="fa fa-exclamation-triangle link_icon" style="color: rgb(224, 44, 44)"></i><span class="link_text">Ex Sasian’s dues</span></a>
+                            </div>
+                            <div class="link">
+                                <a href="https://kenpoint.sasken.com/EED/EmpEng/Shared%20Documents/CelebratingSasian/Celebrating_Sasians.pdf" target="_blank"><i class="fa fa-star link_icon"></i><span class="link_text" style="font-size: 13px !important;">Celebrating Sasians</span></a>
+                            </div>
+                        </div>
+                        <!------------------------ links rhs ---------------------------->
+                        <div class="link-col">
+                            <div class="link">
+                                <a href="https://kenpoint.sasken.com/OE/SMS/Policies/Forms/Sasken_Policies.aspx" target="_blank">
+                                    <i class="fa fa-pencil-square-o link_icon"></i><span class="link_text">Policies</span></a>
+                            </div>
+                            <!--------------------------------------- link 1 --------------------------------->
+                            <div class="link">
+                                <a href="https://iken.sasken.com/ngage/" target="_blank"><i class="fa fa-suitcase link_icon"></i><span class="link_text">Hot Jobs</span></a>
+                            </div>
+                            <!--------------------------------------- link 2 --------------------------------->
+                            <div class="link">
+                                <a href="https://kenpoint.sasken.com/hr/learning/InductionPPTs/Forms/AllItems.aspx"
+                                    target="_blank"><i class="fa fa-graduation-cap link_icon"></i><span class="link_text">Induction</span></a>
+                            </div>
+                            <!--------------------------------------- link 3 --------------------------------->
+                            <div class="link">
+                                <a href="https://iken.sasken.com/EffortLog/" target="_blank"><i class="fa fa-clock-o link_icon"></i><span class="link_text">Time Sheet</span></a>
+                            </div>
+                            <!--------------------------------------- link 4 --------------------------------->
+                            <div class="link">
+                                <a href="https://sdp.sasken.com" target="_blank"><i
+                                    class="fa fa-newspaper-o link_icon"></i><span class="link_text">SDP</span></a>
+                            </div>
+                            <!--------------------------------------- link 5 --------------------------------->
+                            <div class="link">
+                                <a href="medical_center.aspx"><i class="fa fa-heartbeat link_icon"></i><span class="link_text">Medical Centre</span></a>
+                            </div>
+                            <!--------------------------------------- link 6 --------------------------------->
+                            
+                             <div class="link">
+                                <a href="http://kenserv.sasken.com/saleskit" target="_blank"><i class="fa fa-clone link_icon" aria-hidden="true"></i><span class="link_text">Saleskit</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot_nav">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="bot_bar hidden-sm hidden-xs">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a href="https://kenpoint.sasken.com/discovery/Kenshare/SitePages/home.aspx" target="_blank"><span class="pseudo_link"></span></a>
+                    <div class="bot_tab bot_shadow">
+                        <div class="nav_icon">
+                            <img src="images/kenshare.png" alt="KenShare" />
+                        </div>
+                        Ken<span class="bot_tab_thin">share</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a href="https://kenpoint.sasken.com/default.aspx" target="_blank"><span class="pseudo_link"></span></a>
+                    <div class="bot_tab bot_shadow">
+                        <div class="nav_icon">
+                            <img src="images/kenpoint.png" alt="KenPoint" />
+                        </div>
+                        Ken<span class="bot_tab_thin">point</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a href="kenflash/default.aspx" target="_blank"><span class="pseudo_link"></span></a>
+                    <div class="bot_tab bot_shadow">
+                        <div class="nav_icon">
+                            <img src="images/kenflash.png" alt="Our Units" />
+                        </div>
+                        Ken<span class="bot_tab_thin">flash</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a href="KenGenie/" target="_blank"><span class="pseudo_link"></span></a>
+                    <div class="bot_tab bot_shadow">
+                        <div class="nav_icon">
+                            <img src="images/kenginie.png" alt="Our Units" />
+                        </div>
+                        Ken<span class="bot_tab_thin">genie</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <button type="button" id="btn_Popup" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="display: none"></button>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog" style="background-color: rgba(12, 12, 12, 0.72);">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><i class="fa fa-warning fa-2x" style="color: #ddb73a"></i><span style="color: #208ad9">&nbsp;&nbsp;Important Announcement</span></h4>
+                    <hr />
+
+                </div>
+                <div class="modal-body">
+                    <div style="color: #565655; font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;">
+                        <span id="ContentPlaceHolder1_lbl_Announcement"></span>
+
+                    </div>
+                </div>
+                <br />
+                <hr />
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Modal PopUp for Timesheet-->
+    <button type="button" id="btn_PopupEffort" class="btn btn-info btn-lg" data-toggle="modal" data-backdrop="static" data-keyboard="false" data-target="#MyEffortModal" style="display: none"></button>
+
+    <div class="modal fade" id="MyEffortModal" role="dialog" style="background-color: rgba(12, 12, 12, 0.93); z-index: 9999 !important;">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="row">
+                    <div style="padding-left: 30px; padding-right: 30px; padding-top: 10px; text-align: left; font-size: 14px; background-color: rgba(12, 12, 12, 0.93)">
+                        <div>
+                            <h3 style="color: #c9d435">Effort Log Non-Compliance</h3>
+                            <p style="color: #cbccc6">
+                                <span id="ContentPlaceHolder1_lbl_OnEffortDay">as of Yesterday</span>
+                            </p>
+                        </div>
+                        <div style="text-align: right">
+                            <i class="fa fa-square" style="color: #ff2020"></i><span style="color: #fff">&nbsp;Effort not logged</span>&nbsp;&nbsp;
+                            <i class="fa fa-square" style="color: #f98018"></i><span style="color: #fff">&nbsp;Not in Office</span>&nbsp;&nbsp;
+                            <i class="fa fa-square" style="color: #3885d0"></i><span style="color: #fff">&nbsp;Leave Applied</span>&nbsp;&nbsp;
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+
+                </div>
+                <div class="modal-body">
+
+                    <div class="row">
+                        <span id="ContentPlaceHolder1_lbl_effortMsg"></span>
+                        <div id="ContentPlaceHolder1_divTime">
+                        <div id="ContentPlaceHolder1_outerDiv0 " Class="custom-col-md-2  col-sm-3 col-xs-4 col-lg-2" style="margin:5px;font-size:12px;"><div id="ContentPlaceHolder1_innerDiv10 " style="background-color:#345;height:72px;line-height:2;color:#fff;font-weight:700;text-align:center; border-radius:4px 4px 0px 0px;">14-Nov-2018<div id="ContentPlaceHolder1_innerDiv30 " style="font-weight:700;line-height:1.3;background-color:#b4d2ef;color:#345;">Wednesday | 8.50</div><div id="ContentPlaceHolder1_innerDiv20 " style="font-weight:700;background-color:#f1f1f1;color:#345;font-size:17px;height:30px;">7.97</div></div></div><div id="ContentPlaceHolder1_outerDiv1 " Class="custom-col-md-2  col-sm-3 col-xs-4 col-lg-2" style="margin:5px;font-size:12px;"><div id="ContentPlaceHolder1_innerDiv11 " style="background-color:#345;height:72px;line-height:2;color:#fff;font-weight:700;text-align:center; border-radius:4px 4px 0px 0px;">20-Nov-2018<div id="ContentPlaceHolder1_innerDiv31 " style="font-weight:700;line-height:1.3;background-color:#b4d2ef;color:#345;">Tuesday | 8.50</div><div id="ContentPlaceHolder1_innerDiv21 " style="font-weight:700;background-color:#ff2020;color:#f1f1f1;font-size:17px;height:30px;">0.00</div></div></div><div id="ContentPlaceHolder1_outerDiv2 " Class="custom-col-md-2  col-sm-3 col-xs-4 col-lg-2" style="margin:5px;font-size:12px;"><div id="ContentPlaceHolder1_innerDiv12 " style="background-color:#345;height:72px;line-height:2;color:#fff;font-weight:700;text-align:center; border-radius:4px 4px 0px 0px;">21-Nov-2018<div id="ContentPlaceHolder1_innerDiv32 " style="font-weight:700;line-height:1.3;background-color:#b4d2ef;color:#345;">Wednesday | 8.50</div><div id="ContentPlaceHolder1_innerDiv22 " style="font-weight:700;background-color:#ff2020;color:#f1f1f1;font-size:17px;height:30px;">0.00</div></div></div></div>
+
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div style="padding-left: 30px; padding-right: 30px">
+                            
+                            <p style="font-size: 11px; color: #828282">Please click on the below link for quick access to log your Effort/Leave/Omega  </p>
+
+                            <span><i class="fa fa-clock-o" style="color: #969696; font-weight: 700"></i><a href="https://iken.sasken.com/EffortLog/" target="_blank">&nbsp;&nbsp;Time Sheet</a></span>
+                            &nbsp;&nbsp; |&nbsp;&nbsp;
+                            <span><i class="fa fa-newspaper-o " style="color: #969696; font-weight: 700"></i><a href="https://sdp.sasken.com" target="_blank">&nbsp;&nbsp;SDP</a></span>
+                            &nbsp;&nbsp; |&nbsp;&nbsp;
+                            <span><i class="fa fa-briefcase" style="color: #969696; font-weight: 700"></i><a href="https://iken.sasken.com/omega/EPS/" target="_blank">&nbsp;&nbsp;Omega</a></span>
+                            &nbsp;&nbsp; |&nbsp;&nbsp;
+                            <span><i class="fa fa-server" style="color: #969696; font-weight: 700"></i><a href="https://sapgwprd.sasken.com/sap/bc/ui2/flp#Shell-home" target="_blank">&nbsp;&nbsp;Leave</a></span>
+
+
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="modal-body" style="padding: 20px">
+                    <p>
+                        Effective Dec 2017, there is a change in the <u style="color: #c00">last day</u> for logging efforts with respect to the current practice we are following.
+Henceforth, last day for <u style="color: #c00">logging your efforts will be “last day of the month”.</u>
+                    </p>
+
+                    <ul>
+                        <li>For those logging in non-SDP Time Sheet : Last day for logging efforts would be 4pm local time on the last day of the month</li>
+                        <li>For those logging in SDP Time Sheet : Weekly cut off continues to be Monday(for the previous week) and the last week’s effort log cut off would be 4pm local time on the last day of the month</li>
+                    </ul>
+
+
+
+                    <strong>Note:</strong> Revised Effort Logging Compliance Policy shall be uploaded in Sasken Management Systems (SMS) and accessible through IKEN->Policies->HR  by the following week.
+
+                </div>
+
+                <br />
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Modal PopUp for Pending Trainings-->
+    <button type="button" id="btn_Trianing" class="btn btn-info btn-lg" data-toggle="modal" data-backdrop="static" data-keyboard="false" data-target="#MyTrainingModal" style="display: none"></button>
+
+    <div class="modal fade" id="MyTrainingModal" role="dialog" style="background-color: rgba(12, 12, 12, 0.72);">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><span style="color: #208ad9">Mandatory Training Status for Current Financial Year</span>
+                        <br />
+                        <p style="color: red;font-size: 15px;font-weight: 600;">
+                            Last Date to Complete: 31<sup>st</sup>  March of every financial year
+                        </p>
+                    </h4>
+
+                    <hr />
+                </div>
+                <div class="modal-body">
+                    <div style="color: #565655; font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; padding: 2%">
+
+                        <div>
+	<table cellspacing="0" cellpadding="3" rules="all" id="ContentPlaceHolder1_grd_pendingTrainings" style="background-color:White;border-color:#CCCCCC;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:#006699;font-weight:bold;">
+			<th scope="col">Sno.</th><th scope="col">Training Name</th><th scope="col">Score</th><th scope="col">Attended On</th>
+		</tr><tr style="color:#000066;">
+			<td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Sno_0">1</span>
+                                    </td><td>
+                                        <a id="ContentPlaceHolder1_grd_pendingTrainings_lbl_QuizName_0" href="https://moodle.sasken.com/course/view.php?id=237" target="_blank">Information Security (infoSec)</a>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Score_0"></span>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Quizdate_0"></span>
+                                    </td>
+		</tr><tr style="color:#000066;">
+			<td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Sno_1">2</span>
+                                    </td><td>
+                                        <a id="ContentPlaceHolder1_grd_pendingTrainings_lbl_QuizName_1" href="https://moodle.sasken.com/course/view.php?id=280" target="_blank">Sasken Code Of Conduct</a>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Score_1"></span>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Quizdate_1"></span>
+                                    </td>
+		</tr><tr style="color:#000066;">
+			<td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Sno_2">3</span>
+                                    </td><td>
+                                        <a id="ContentPlaceHolder1_grd_pendingTrainings_lbl_QuizName_2" href="https://moodle.sasken.com/course/view.php?id=285" target="_blank">Discipline@Workplace</a>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Score_2"></span>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Quizdate_2"></span>
+                                    </td>
+		</tr><tr style="color:#000066;">
+			<td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Sno_3">4</span>
+                                    </td><td>
+                                        <a id="ContentPlaceHolder1_grd_pendingTrainings_lbl_QuizName_3" href="https://moodle.sasken.com/course/view.php?id=289" target="_blank">Addressing Sexual Harassment @ Workplace</a>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Score_3"></span>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Quizdate_3"></span>
+                                    </td>
+		</tr><tr style="color:#000066;">
+			<td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Sno_4">5</span>
+                                    </td><td>
+                                        <a id="ContentPlaceHolder1_grd_pendingTrainings_lbl_QuizName_4" href="https://moodle.sasken.com/course/view.php?id=316" target="_blank">Environmental Management System Awareness (EMS)</a>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Score_4"></span>
+                                    </td><td>
+                                        <span id="ContentPlaceHolder1_grd_pendingTrainings_lbl_Quizdate_4"></span>
+                                    </td>
+		</tr>
+	</table>
+</div>
+
+                    </div>
+                </div>
+                <br />
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var i;
+        var divs = document.getElementsByTagName('p');
+        for (i = 0; i < divs.length; i++) {
+            if (divs[i].className == 'news-data') {
+                divs[i].innerHTML = divs[i].innerHTML.substring(0, 70) + "...";
+            }
+        }
+
+        if ($(window).width() <= 1024) {
+            for (i = 0; i < divs.length; i++) {
+                if (divs[i].className == 'news-data') {
+                    divs[i].innerHTML = divs[i].innerHTML.substring(0, 40) + "...";
+                }
+            }
+        }
+        //$(".link").hover(function(){
+        //	$(".link_icon").addClass("link_icon_hover");
+        //	$(".link_text").addClass("link_text_hover");
+        //	
+        //});
+
+        function buzzOpen(id) {
+            document.location.href = "casestudy.aspx?id=" + id;
+        }
+
+        function RecentHappeningOpen(URL) {
+            window.open(URL);
+        }
+
+    </script>
+
+    </div>
+    <!--------------------------------------------------- content area ends ----------------------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_text">
+                &copy;Copyright Sasken Technologies Ltd.
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+<script type="text/javascript" language="javascript">
+    //    function ShowLinks() {
+    //        var json = { "data": { "item": [{ "ItemVal": "7", "ItemText": "My Timesheet" }, { "ItemVal": "8", "ItemText": "KenFalsh"}]} };
+    //        var i;
+    //        var strLinks = '';
+    //        var strLinks2 = '';
+    //        for(i=0; i<json.data.item.length; i++)
+    //        {
+    //            //alert(json.data.item[i].ItemText);
+    //            //strLinks += '<li><a href="javascript:OpenF(' + json.data.item[i].ItemVal + ')">' + json.data.item[i].ItemText + '</a> <span class="close_menu"></span></li>';
+    //            //strLinks += '<li><a href="javascript:OpenF(' + json.data.item[i].ItemVal + ')">' + json.data.item[i].ItemText + '</a> <span class="close_menu"></span></li>';
+    //            //strLinks += '<li><a href="#">Favourite 1</a> <span class="close_menu"></span></li>';
+    //        }
+    //                
+    //      }
+</script>
+<script type="text/javascript">
+//    function DeleteItem(id, UID) {
+//        //alert("Link has been removed!");
+//        $.ajax({
+//            type: "POST",
+//            //url: "Default.aspx/DeleteLinks",
+//            //data: '{ID: "' + id + '", UID: "' + UID + '" }',
+//            contentType: "application/json; charset=utf-8",
+//            dataType: "json",
+//            success: OnSuccess,
+//            failure: function (response) {
+//                alert(response.d);
+//            }
+//        });
+//    }
+//    function OnSuccess(response) {
+//        alert(response.d);
+//        location.reload();
+//    }
+
+    // Now the updated method as
+    function DoAction(id, UID) {
+        //alert(id);
+        $.ajax({
+            url: "Handler.ashx",
+            contentType: "application/json; charset=utf-8",
+            data: { 'ID': id, 'UID': UID },
+            success: OnComplete,
+            error: OnFail
+        });
+        return false;
+    }
+
+
+    function OnComplete(result) {
+        alert('Link has been removed!.');
+        document.location.href = 'default.aspx';
+    }
+    function OnFail(result) {
+        alert('Failed to remove the link');
+
+    }
+
+</script>
+</html>

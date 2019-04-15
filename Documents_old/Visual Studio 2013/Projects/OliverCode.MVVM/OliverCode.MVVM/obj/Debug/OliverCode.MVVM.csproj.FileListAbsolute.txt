@@ -1,0 +1,17 @@
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\bin\Debug\OliverCode.MVVM.exe.config
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\bin\Debug\OliverCode.MVVM.exe
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\bin\Debug\OliverCode.MVVM.pdb
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\OliverCode.MVVM.csprojResolveAssemblyReference.cache
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\MainWindow.g.cs
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\View\PersonView.g.cs
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\App.g.cs
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\OliverCode.MVVM_MarkupCompile.cache
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\OliverCode.MVVM_MarkupCompile.lref
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\MainWindow.baml
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\View\PersonView.baml
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\OliverCode.MVVM.g.resources
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\OliverCode.MVVM.Properties.Resources.resources
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\OliverCode.MVVM.csproj.GenerateResource.Cache
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\OliverCode.MVVM.exe
+c:\users\ee210679\documents\visual studio 2013\Projects\OliverCode.MVVM\OliverCode.MVVM\obj\Debug\OliverCode.MVVM.pdb

@@ -1,0 +1,9 @@
+c:\users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\bin\Debug\UnitTestProject4.dll
+c:\users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\bin\Debug\UnitTestProject4.pdb
+c:\users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\obj\Debug\UnitTestProject4.dll
+c:\users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\obj\Debug\UnitTestProject4.pdb
+C:\Users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\bin\Debug\UnitTestProject4.dll.config
+C:\Users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\bin\Debug\System.ValueTuple.dll
+C:\Users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\ee210679\documents\visual studio 2013\Projects\UnitTestProject4\UnitTestProject4\bin\Debug\Newtonsoft.Json.xml

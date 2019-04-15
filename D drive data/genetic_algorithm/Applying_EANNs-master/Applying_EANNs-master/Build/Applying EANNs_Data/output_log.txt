@@ -1,0 +1,33 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   24.20.100.6287
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.294 seconds
+Platform assembly: D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\D drive data\genetic_algorithm\Applying_EANNs-master\Applying_EANNs-master\Build\Applying EANNs_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.487000 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 4ac8 -> priority: 1 
+  Thread -> id: 2728 -> priority: 1 
+  Thread -> id: 4d4c -> priority: 1 
+  Thread -> id: 3498 -> priority: 1 
+  Thread -> id: 4e58 -> priority: 1 
+  Thread -> id: 424c -> priority: 1 

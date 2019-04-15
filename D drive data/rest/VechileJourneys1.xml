@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VehicleJourneysImport xmlns="http://schemas.prodatamobility.com/mobiguider" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="VehicleJourneys.xsd">
+		<VehicleJourneys>
+				<VehicleJourney id="314350312" publicNumber="79979" type="PullIn" journeyPatternId="30001" departureTime="13:43:00" arrivalTime="14:22:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="13:43:00" isTimingPoint="true" pointId="105028"/>
+								<PassingTime orderNumber="2" arrivalTime="14:22:00" isTimingPoint="true" pointId="31241"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314350321" publicNumber="79971" type="PullIn" journeyPatternId="30002" departureTime="11:17:00" arrivalTime="12:22:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="11:17:00" isTimingPoint="true" pointId="105109"/>
+								<PassingTime orderNumber="2" arrivalTime="12:22:00" isTimingPoint="true" pointId="31241"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314350369" publicNumber="79938" type="PullIn" journeyPatternId="30003" departureTime="13:51:00" arrivalTime="14:52:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="13:51:00" isTimingPoint="true" pointId="106017"/>
+								<PassingTime orderNumber="2" arrivalTime="14:52:00" isTimingPoint="true" pointId="31241"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314350295" publicNumber="79984" type="DeadRun" journeyPatternId="30004" departureTime="16:18:00" arrivalTime="16:22:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="16:18:00" isTimingPoint="true" pointId="300070"/>
+								<PassingTime orderNumber="2" arrivalTime="16:22:00" isTimingPoint="true" pointId="303943"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314350296" publicNumber="79995" type="DeadRun" journeyPatternId="30005" departureTime="18:49:00" arrivalTime="19:00:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="18:49:00" isTimingPoint="true" pointId="300417"/>
+								<PassingTime orderNumber="2" arrivalTime="19:00:00" isTimingPoint="true" pointId="308671"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314350322" publicNumber="79985" type="PullIn" journeyPatternId="30006" departureTime="18:50:00" arrivalTime="19:34:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="18:50:00" isTimingPoint="true" pointId="300855"/>
+								<PassingTime orderNumber="2" arrivalTime="19:34:00" isTimingPoint="true" pointId="31241"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314350327" publicNumber="79965" type="PullIn" journeyPatternId="30007" departureTime="21:59:00" arrivalTime="22:40:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="21:59:00" isTimingPoint="true" pointId="300870"/>
+								<PassingTime orderNumber="2" arrivalTime="22:40:00" isTimingPoint="true" pointId="31241"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314350342" publicNumber="79964" type="PullIn" journeyPatternId="30008" departureTime="19:48:00" arrivalTime="20:32:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="19:48:00" isTimingPoint="true" pointId="300986"/>
+								<PassingTime orderNumber="2" arrivalTime="20:32:00" isTimingPoint="true" pointId="31241"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314350350" publicNumber="79956" type="PullIn" journeyPatternId="30009" departureTime="12:33:00" arrivalTime="13:20:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="12:33:00" isTimingPoint="true" pointId="301123"/>
+								<PassingTime orderNumber="2" arrivalTime="13:20:00" isTimingPoint="true" pointId="31241"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
+				<VehicleJourney id="314349900" publicNumber="437" type="ServiceJourney" journeyPatternId="31181" departureTime="09:09:00" arrivalTime="09:49:00" isPublic="false" dayType="Monday Tuesday Wednesday Thursday Friday Saturday Sunday">
+						<TimetabledPassingTimes>
+								<PassingTime orderNumber="1" arrivalTime="09:09:00" isTimingPoint="true" pointId="306135"/>
+								<PassingTime orderNumber="2" arrivalTime="09:09:00" isTimingPoint="true" pointId="306134"/>
+								<PassingTime orderNumber="3" arrivalTime="09:10:00" isTimingPoint="true" pointId="306132"/>
+								<PassingTime orderNumber="4" arrivalTime="09:11:00" isTimingPoint="true" pointId="301349"/>
+								<PassingTime orderNumber="5" arrivalTime="09:11:00" isTimingPoint="true" pointId="306130"/>
+								<PassingTime orderNumber="6" arrivalTime="09:12:00" isTimingPoint="true" pointId="301355"/>
+								<PassingTime orderNumber="7" arrivalTime="09:13:00" isTimingPoint="true" pointId="301353"/>
+								<PassingTime orderNumber="8" arrivalTime="09:14:00" isTimingPoint="true" pointId="301364"/>
+								<PassingTime orderNumber="9" arrivalTime="09:16:00" isTimingPoint="true" pointId="306128"/>
+								<PassingTime orderNumber="10" arrivalTime="09:17:00" isTimingPoint="true" pointId="306126"/>
+								<PassingTime orderNumber="11" arrivalTime="09:18:00" isTimingPoint="true" pointId="306153"/>
+								<PassingTime orderNumber="12" arrivalTime="09:18:00" isTimingPoint="true" pointId="301386"/>
+								<PassingTime orderNumber="13" arrivalTime="09:19:00" isTimingPoint="true" pointId="301390"/>
+								<PassingTime orderNumber="14" arrivalTime="09:20:00" isTimingPoint="true" pointId="301388"/>
+								<PassingTime orderNumber="15" arrivalTime="09:21:00" isTimingPoint="true" pointId="301343"/>
+								<PassingTime orderNumber="16" arrivalTime="09:24:00" isTimingPoint="true" pointId="301339"/>
+								<PassingTime orderNumber="17" arrivalTime="09:25:00" isTimingPoint="true" pointId="301337"/>
+								<PassingTime orderNumber="18" arrivalTime="09:26:00" isTimingPoint="true" pointId="301280"/>
+								<PassingTime orderNumber="19" arrivalTime="09:26:00" isTimingPoint="true" pointId="301311"/>
+								<PassingTime orderNumber="20" arrivalTime="09:27:00" isTimingPoint="true" pointId="301298"/>
+								<PassingTime orderNumber="21" arrivalTime="09:28:00" isTimingPoint="true" pointId="308673"/>
+								<PassingTime orderNumber="22" arrivalTime="09:29:00" isTimingPoint="true" pointId="300789"/>
+								<PassingTime orderNumber="23" arrivalTime="09:31:00" isTimingPoint="true" pointId="306117"/>
+								<PassingTime orderNumber="24" arrivalTime="09:32:00" isTimingPoint="true" pointId="300764"/>
+								<PassingTime orderNumber="25" arrivalTime="09:33:00" isTimingPoint="true" pointId="300787"/>
+								<PassingTime orderNumber="26" arrivalTime="09:34:00" isTimingPoint="true" pointId="300774"/>
+								<PassingTime orderNumber="27" arrivalTime="09:35:00" isTimingPoint="true" pointId="300754"/>
+								<PassingTime orderNumber="28" arrivalTime="09:38:00" isTimingPoint="true" pointId="300833"/>
+								<PassingTime orderNumber="29" arrivalTime="09:39:00" isTimingPoint="true" pointId="300012"/>
+								<PassingTime orderNumber="30" arrivalTime="09:41:00" isTimingPoint="true" pointId="300757"/>
+								<PassingTime orderNumber="31" arrivalTime="09:41:00" isTimingPoint="true" pointId="300758"/>
+								<PassingTime orderNumber="32" arrivalTime="09:42:00" isTimingPoint="true" pointId="300744"/>
+								<PassingTime orderNumber="33" arrivalTime="09:45:00" isTimingPoint="true" pointId="300798"/>
+								<PassingTime orderNumber="34" arrivalTime="09:46:00" isTimingPoint="true" pointId="300768"/>
+								<PassingTime orderNumber="35" arrivalTime="09:47:00" isTimingPoint="true" pointId="300770"/>
+								<PassingTime orderNumber="36" arrivalTime="09:49:00" isTimingPoint="true" pointId="307246"/>
+						</TimetabledPassingTimes>
+				</VehicleJourney>
